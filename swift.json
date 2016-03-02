@@ -1,0 +1,7 @@
+{
+  "user": "user:swift",
+  "secret_key": "you_secret_key",
+  "auth_uri": "http://radosgw/auth/1.0",
+  "rados_uri": "http://radosgw/swift/v1/",
+  "bucket": "public"
+}

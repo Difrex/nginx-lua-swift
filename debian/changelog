@@ -1,0 +1,5 @@
+nginx-lua-swift (0.1-1) jessie; urgency=low
+
+  * Initial release 
+
+ -- Denis Zheleztsov <difrex.punk@gmail.com>  Wed, 02 Mar 2016 11:09:52 +0300

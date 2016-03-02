@@ -1,0 +1,12 @@
+Source: nginx-lua-swift
+Section: web
+Priority: optional
+Maintainer: Denis Zheleztsov <difrex.punk@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Vcs-Git: https://github.com/Difrex/nginx-lua-swift.git
+
+Package: nginx-lua-swift
+Architecture: amd64
+Depends: nginx-extras, lua-cjson
+Description: Nginx lua module to get objects from Swift storage

@@ -1,0 +1,16 @@
+server {
+    listen  9999;
+    server_name _;
+
+    location ~ /ceph(.*)$ {
+        set $path $1;
+        
+        content_by_lua_file "/etc/nginx/lua/swift.lua";
+
+        error_page 404 @404;
+    }
+
+    location @404 {
+        echo 'This is OK';
+    }
+}
